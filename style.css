@@ -189,6 +189,7 @@ h1 {
   width: fit-content;
   margin-inline: auto;
   color: var(--color-text-primary);
+  margin-left: 20px;
 }
 
 .menu-group:hover {
@@ -197,7 +198,6 @@ h1 {
 
 .menu-group {
   transition: transform 0.3s;
-  margin-left: 20px;
 }
 
 .title-team {
