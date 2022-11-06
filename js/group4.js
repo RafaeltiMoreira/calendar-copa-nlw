@@ -39,6 +39,4 @@ document.querySelector("#cards").innerHTML =
     "sábado",
     createGame("Aguardem", "12:00", "Aguardem") +
       createGame("Aguardem", "16:00", "Aguardem")
-  ) +
-  createCard("13/12", "terça", createGame("Aguardem", "16:00", "Aguardem")) +
-  createCard("14/12", "quarta", createGame("Aguardem", "16:00", "Aguardem"))
+  )

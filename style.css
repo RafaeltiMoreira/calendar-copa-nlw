@@ -178,12 +178,26 @@ h1 {
   color: var(--color-text-primary);
 }
 
+.groupI {
+  display: inline-flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid var(--card-title-border-color);
+  border-radius: 6px;
+  width: fit-content;
+  margin-inline: auto;
+  color: var(--color-text-primary);
+}
+
 .menu-group:hover {
   transform: scale(1.1);
 }
 
 .menu-group {
   transition: transform 0.3s;
+  margin-left: 20px;
 }
 
 .title-team {
