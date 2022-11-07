@@ -41,8 +41,7 @@ body * {
   font-family: "Roboto", sans-serif;
 }
 
-#app,
-#init {
+#app {
   width: fit-content;
   margin: auto;
   padding-top: 52px;
@@ -189,12 +188,6 @@ h1 {
   align-items: center;
 }
 
-.menu-group {
-  text-decoration: none;
-  list-style: none;
-  color: var(--color-text-primary);
-}
-
 .groupI {
   display: inline-flex;
   gap: 16px;
@@ -215,6 +208,9 @@ h1 {
 
 .menu-group {
   transition: transform 0.3s;
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-text-primary);
 }
 
 .title-team {
