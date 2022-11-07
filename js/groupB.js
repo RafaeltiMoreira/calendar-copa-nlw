@@ -27,7 +27,7 @@ function createCard(date, day, games) {
   `
 }
 
-document.querySelector("#cards").innerHTML =
+document.querySelector("#groupB").innerHTML =
   createCard(
     "21/11",
     "segunda",

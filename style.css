@@ -59,7 +59,20 @@ h1 {
   padding-top: 52px;
 }
 
-#cards {
+#cards,
+#groupA,
+#groupB,
+#groupC,
+#groupD,
+#groupE,
+#groupF,
+#groupG,
+#groupH,
+#group8,
+#group4,
+#groupS,
+#group3,
+#groupFi {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,6 +161,10 @@ h1 {
 .card {
   opacity: 0;
   animation: appear 0.2s forwards;
+}
+
+.spacing {
+  padding-bottom: 52px;
 }
 
 /* Página inicial */
