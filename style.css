@@ -29,7 +29,7 @@ body.green {
 body.white {
   --card-title-border-color: #ffffff;
   --card-color-primary: #ffffff;
-  --card-bg-color: #202024;
+  --card-bg-color: #1a1f1b;
   --bg: url(./assets/bg-white.svg);
 }
 
@@ -94,7 +94,7 @@ h1 {
   align-items: center;
 
   padding: 8px 16px;
-  border: 1px solid var(--card-title-border-color);
+  border: 2px solid var(--card-title-border-color);
   border-radius: 6px;
 
   width: fit-content;
@@ -184,22 +184,17 @@ h1 {
   margin: auto;
 }
 
-.menu-initial {
-  align-items: center;
-}
-
 .groupI {
   display: inline-flex;
   gap: 16px;
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
-  border: 1px solid var(--card-title-border-color);
+  border: 2px solid var(--card-title-border-color);
   border-radius: 6px;
   width: fit-content;
   margin-inline: auto;
   color: var(--color-text-primary);
-  margin-left: 20px;
 }
 
 .menu-group:hover {
@@ -227,8 +222,8 @@ p {
   padding-top: 10px;
 }
 
-.img-initial {
-  width: fit-content;
+.title-span {
+  padding: 5px;
 }
 
 li img {
@@ -239,21 +234,17 @@ li img {
 footer {
   width: fit-content;
   margin: auto;
-  padding-top: 52px;
-  padding-bottom: 52px;
+}
+
+.footer-flex {
+  margin-top: 63px;
+  margin-bottom: 32px;
 }
 
 footer a {
   color: var(--color-text-primary);
   text-decoration: none;
-}
-
-footer:hover {
-  transform: scale(1.1);
-}
-
-footer {
-  transition: transform 0.3s;
+  font-size: 18px;
 }
 
 @keyframes appear {
@@ -268,9 +259,27 @@ footer {
 }
 
 @media (min-width: 700px) {
-  #cards {
-    max-width: 670px;
+  #cards,
+  #groupA,
+  #groupB,
+  #groupC,
+  #groupD,
+  #groupE,
+  #groupF,
+  #groupG,
+  #groupH,
+  #group8,
+  #group4,
+  #groupS,
+  #group3,
+  #groupFi {
+    max-width: 1200px;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 63px;
+  }
+
+  .footer-flex {
+    margin-top: 550px;
   }
 }
