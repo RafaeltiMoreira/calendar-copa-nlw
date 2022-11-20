@@ -9,28 +9,28 @@
   --card-title-border-color: #746615;
   --card-color-primary: #f7dd43;
   --card-bg-color: #1d1c19;
-  --bg: url(../assets/bg-yellow.svg);
+  --bg: url(./assets/bg-yellow.svg);
 }
 
 body.blue {
   --card-title-border-color: #338af3;
   --card-color-primary: #338af3;
   --card-bg-color: #202024;
-  --bg: url(../assets/bg-blue.svg);
+  --bg: url(./assets/bg-blue.svg);
 }
 
 body.green {
   --card-title-border-color: #047c3f;
   --card-color-primary: #047c3f;
   --card-bg-color: #1a1f1b;
-  --bg: url(../assets/bg-green.svg);
+  --bg: url(./assets/bg-green.svg);
 }
 
 body.white {
   --card-title-border-color: #ffffff;
   --card-color-primary: #ffffff;
   --card-bg-color: #1a1f1b;
-  --bg: url(../assets/bg-white.svg);
+  --bg: url(./assets/bg-white.svg);
 }
 
 body {
@@ -44,7 +44,8 @@ body * {
 #app {
   width: fit-content;
   margin: auto;
-  padding-top: 52px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 header {
@@ -248,7 +249,6 @@ footer {
 }
 
 .footer-flex {
-  margin-top: 63px;
   margin-bottom: 32px;
 }
 
@@ -290,7 +290,12 @@ footer a {
     padding-top: 63px;
   }
 
+  #app {
+    padding-top: 52px;
+    padding-bottom: 120px;
+  }
+
   .footer-flex {
-    margin-top: 320px;
+    margin-top: 368px;
   }
 }
