@@ -39,6 +39,6 @@ document.querySelector("#groupA").innerHTML =
   createCard(
     "29/11",
     "terça",
-    createGame("Equador", "12:00", "Senegal") +
-      createGame("Holanda", "12:00", "Catar")
+    createGame("Equador", "1 x 2", "Senegal") +
+      createGame("Holanda", "2 x 0", "Catar")
   )
