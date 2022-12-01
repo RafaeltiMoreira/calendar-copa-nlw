@@ -43,6 +43,6 @@ document.querySelector("#groupE").innerHTML =
   createCard(
     "01/12",
     "quinta",
-    createGame("Japão", "16:00", "Espanha") +
-      createGame("Costa Rica", "16:00", "Alemanha")
+    createGame("Japão", "2 x 1", "Espanha") +
+      createGame("Costa Rica", "2 x 4", "Alemanha")
   )
