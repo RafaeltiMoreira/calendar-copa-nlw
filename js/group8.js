@@ -50,5 +50,5 @@ document.querySelector("#group8").innerHTML =
     "06/12",
     "terça",
     createGame("Marrocos", "12:00", "Espanha") +
-      createGame("Portugal", "16:00", "Suiça")
+      createGame("Portugal", "16:00", "Suíça")
   )
