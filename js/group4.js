@@ -32,7 +32,7 @@ document.querySelector("#group4").innerHTML =
     "09/12",
     "sexta",
     createGame("Aguardem", "12:00", "Aguardem") +
-      createGame("Aguardem", "16:00", "Aguardem")
+      createGame("Holanda", "16:00", "Argentina")
   ) +
   createCard(
     "10/12",
