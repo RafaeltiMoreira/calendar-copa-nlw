@@ -38,5 +38,5 @@ document.querySelector("#group4").innerHTML =
     "10/12",
     "sábado",
     createGame("Aguardem", "12:00", "Aguardem") +
-      createGame("Aguardem", "16:00", "Aguardem")
+      createGame("Inglaterra", "16:00", "França")
   )
